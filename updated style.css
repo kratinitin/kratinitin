@@ -177,6 +177,31 @@ section {
   margin: 0;  /* Ensure no extra margin is applied */
 }
 
+.profile-container {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-description {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
 
 .section__pic-container {
   display: flex;
@@ -218,9 +243,12 @@ section {
 
 #socials-container {
   display: flex;
+  text-align: center;
   justify-content: center;
-  margin-top: 1rem;
   gap: 1rem;
+  display: inline-block; /* Makes the button a block element so it can be centered */
+  margin: auto;
+  margin-top: 0%;
 }
 
 /* ICONS */
@@ -234,9 +262,10 @@ section {
 
 .btn-container {
   display: flex;
+  text-align: center;
   justify-content: center;
   gap: 1rem;
-  margin-top: 1rem;  /* Adjust spacing below text */
+  margin-top: 0;  /* Adjust spacing below text */
 }
 
 .btn {
@@ -270,8 +299,10 @@ section {
 
 
 .btn-container {
-  gap: 1rem;
+  display: inline-block; /* Makes the button a block element so it can be centered */
+  margin: auto;
 }
+
 
 /* ABOUT SECTION */
 
